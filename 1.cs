@@ -1,5 +1,6 @@
+using System;
 namespace game {
-    using System;
+
 
 namespace Review
 {
