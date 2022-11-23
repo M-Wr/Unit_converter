@@ -1,0 +1,13 @@
+# Name of workflow
+name: Git Actions Demo
+# Workflow runs/triggers when push to repo
+on: [push]
+# What jobs are being done on workflow
+jobs: 
+  actions_demo:
+    runs-on: ubunto-latest # Creates a container taht uses ubuntu
+    # What the machine is going to do
+    steps: 
+    - run: echo "Hello World!"
+    - run: ls -a
+    - run: pwd
